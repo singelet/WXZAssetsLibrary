@@ -14,6 +14,7 @@
 		EB6E99051B5E578A00FB2F4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6E99041B5E578A00FB2F4A /* Images.xcassets */; };
 		EB6E99081B5E578A00FB2F4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB6E99061B5E578A00FB2F4A /* LaunchScreen.xib */; };
 		EB6E99141B5E578A00FB2F4A /* WXZAssetsLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6E99131B5E578A00FB2F4A /* WXZAssetsLibraryTests.m */; };
+		EB6E991F1B5F39BA00FB2F4A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6E991E1B5F39BA00FB2F4A /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EB6E990D1B5E578A00FB2F4A /* WXZAssetsLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXZAssetsLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6E99121B5E578A00FB2F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB6E99131B5E578A00FB2F4A /* WXZAssetsLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXZAssetsLibraryTests.m; sourceTree = "<group>"; };
+		EB6E991D1B5F39BA00FB2F4A /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		EB6E991E1B5F39BA00FB2F4A /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				EB6E98FC1B5E578A00FB2F4A /* AppDelegate.m */,
 				EB6E98FE1B5E578A00FB2F4A /* ViewController.h */,
 				EB6E98FF1B5E578A00FB2F4A /* ViewController.m */,
+				EB6E991D1B5F39BA00FB2F4A /* TableViewController.h */,
+				EB6E991E1B5F39BA00FB2F4A /* TableViewController.m */,
 				EB6E99011B5E578A00FB2F4A /* Main.storyboard */,
 				EB6E99041B5E578A00FB2F4A /* Images.xcassets */,
 				EB6E99061B5E578A00FB2F4A /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				EB6E99001B5E578A00FB2F4A /* ViewController.m in Sources */,
 				EB6E98FD1B5E578A00FB2F4A /* AppDelegate.m in Sources */,
 				EB6E98FA1B5E578A00FB2F4A /* main.m in Sources */,
+				EB6E991F1B5F39BA00FB2F4A /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				EB6E99191B5E578A00FB2F4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB6E991A1B5E578A00FB2F4A /* Build configuration list for PBXNativeTarget "WXZAssetsLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				EB6E991C1B5E578A00FB2F4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
