@@ -10,6 +10,10 @@
 
 @interface TableViewController ()
 
+@property (nonatomic, copy) NSString *name;
+
+@property (nonatomic, strong) UITableView *studentTableView;
+
 @end
 
 @implementation TableViewController
@@ -17,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
